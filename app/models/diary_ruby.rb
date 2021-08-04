@@ -1,0 +1,2 @@
+class DiaryRuby < ApplicationRecord
+end
