@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ruby_diary
 
 A Ruby web application made by Ruby on Rails. 
@@ -27,4 +28,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
->>>>>>> fd7f847 (日記アプリ)
