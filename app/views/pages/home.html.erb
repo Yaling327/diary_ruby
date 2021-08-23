@@ -1,0 +1,8 @@
+<% if current_user %>
+<h1><%= current_user.username %></h1>
+<%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+<% else %>
+<h1>ログインしてください</h1>
+<%= link_to "登録する", new_user_registration_path %>
+<%= link_to "ログイン", new_user_session_path %>
+<% end %>
